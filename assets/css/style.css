@@ -1,0 +1,75 @@
+* {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+header, footer {
+    background-color: #C28D87;
+    border: 5px;
+    color: #701A11;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: #DAB4B1;
+}
+
+footer {
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: #DAB4B1;
+}
+
+h1, h2, figcaption, footer {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 2%;
+    text-decoration: none;
+    color: #701A11;
+}
+
+#contact-section, #entry-fields, #main-section, figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+#main-section {
+    background-color: #701A11;
+    color: #DAB4B1;
+}
+
+#contact-section{
+    background-color: #9D341B;
+    color: #DAB4B1;
+}
+
+#entry-fields {
+    border: 5px solid #701A11;
+    border-radius: 15px;
+}
+
+img {
+    padding: 0 0 2% 0;
+}
+
+input {
+    margin: auto auto 8% auto;
+}
+
+button {
+    background-color: #C28D87;
+    color: #862716;
+    border: 5px solid #DAB4B1;
+}
